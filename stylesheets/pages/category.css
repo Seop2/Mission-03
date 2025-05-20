@@ -44,6 +44,9 @@ h3 {
 .carousel img {
   height: 100%;
 }
+.img-box > img:last-child {
+  display: none;
+}
 .imgInfo {
   text-align: center;
   width: 260px;
@@ -112,6 +115,9 @@ h3 {
 .item {
   height: 50%;
 }
+.itemList .item:first-child {
+  border-bottom: 2px solid var(--color-gray-400);
+}
 .item > div {
   width: 160px;
   height: 300px;
@@ -126,7 +132,9 @@ h3 {
   padding: 10px 0px 10px 0px;
   color: var(--color-red-500);
 }
-
+.hidden {
+  display: none;
+}
 .item-info > div > img {
   margin-left: 5px;
 }
