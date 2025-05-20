@@ -8,6 +8,7 @@ strong {
 }
 .flex {
   display: flex;
+  justify-content: space-between;
 }
 .rel {
   position: relative;
@@ -22,8 +23,26 @@ strong {
   text-decoration: none;
   font-weight: 500;
 }
+.house {
+  margin-bottom: 24px;
+  border-top: 2px solid var(--color-brown-300);
+  border-bottom: 2px solid var(--color-brown-300);
+}
+
+.kitchen {
+  margin-bottom: 24px;
+  border-top: 2px solid var(--color-green-700);
+  border-bottom: 2px solid var(--color-green-700);
+}
 h3 {
   color: var(--color-brown-300);
+}
+.carousel {
+  margin-left: 45px;
+  margin-right: 16px;
+}
+.carousel img {
+  height: 100%;
 }
 .imgInfo {
   text-align: center;
@@ -97,7 +116,12 @@ h3 {
   width: 160px;
   height: 300px;
 }
-
+.item > div:first-child {
+  margin-right: 16px;
+}
+.item > div:last-child {
+  margin-left: 15px;
+}
 .onSale {
   padding: 10px 0px 10px 0px;
   color: var(--color-red-500);
